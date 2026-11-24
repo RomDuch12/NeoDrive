@@ -1,0 +1,84 @@
+{
+  "materials": [
+    {
+      "id": "alu_6061",
+      "name": "Aluminium 6061",
+      "category": "Aluminium",
+      "feed_multiplier": 1.0,
+      "rpm_multiplier": 1.0,
+      "notes": "Référence standard pour DATRON"
+    },
+    {
+      "id": "alu_7075",
+      "name": "Aluminium 7075",
+      "category": "Aluminium",
+      "feed_multiplier": 0.85,
+      "rpm_multiplier": 0.95,
+      "notes": "Plus dur que 6061, réduire légèrement les avances"
+    },
+    {
+      "id": "acier_doux",
+      "name": "Acier doux (S235)",
+      "category": "Acier",
+      "feed_multiplier": 0.3,
+      "rpm_multiplier": 0.5,
+      "notes": "Avances et vitesses réduites, utiliser acier params"
+    },
+    {
+      "id": "acier_inox",
+      "name": "Inox 304",
+      "category": "Acier",
+      "feed_multiplier": 0.2,
+      "rpm_multiplier": 0.4,
+      "notes": "Très faibles avances, refroidissement abondant"
+    },
+    {
+      "id": "laiton",
+      "name": "Laiton",
+      "category": "Non-ferreux",
+      "feed_multiplier": 0.9,
+      "rpm_multiplier": 0.8,
+      "notes": "Proche de l'aluminium, bon état de surface"
+    },
+    {
+      "id": "pom",
+      "name": "POM (Delrin)",
+      "category": "Plastique",
+      "feed_multiplier": 1.2,
+      "rpm_multiplier": 0.7,
+      "notes": "Avances élevées, RPM modéré pour éviter la fonte"
+    },
+    {
+      "id": "pmma",
+      "name": "PMMA (Plexiglas)",
+      "category": "Plastique",
+      "feed_multiplier": 1.0,
+      "rpm_multiplier": 0.6,
+      "notes": "RPM bas pour éviter la fusion, finition lente"
+    },
+    {
+      "id": "pa6",
+      "name": "PA6 (Nylon)",
+      "category": "Plastique",
+      "feed_multiplier": 1.1,
+      "rpm_multiplier": 0.65,
+      "notes": "Matériau souple, avances rapides"
+    },
+    {
+      "id": "bois_dur",
+      "name": "Bois dur (Hêtre/Chêne)",
+      "category": "Bois",
+      "feed_multiplier": 1.5,
+      "rpm_multiplier": 1.0,
+      "notes": "Avances élevées, aspiration recommandée"
+    },
+    {
+      "id": "composite",
+      "name": "Composite (FR4/G10)",
+      "category": "Composite",
+      "feed_multiplier": 0.6,
+      "rpm_multiplier": 0.8,
+      "notes": "Usure rapide des outils, aspiration obligatoire"
+    }
+  ]
+}

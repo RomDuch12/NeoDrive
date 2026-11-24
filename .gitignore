@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+build/
+dist/
+versions/
+programs/
+Machine/
+Étaux et mandrins/
+Plaques de reprise/
+Programmes outils/
+atelier.json
+
+# data/: les données génériques seulement — outils, favoris,
+# gammes, catalogue et réglages sont ceux de l'utilisateur
+data/*
+!data/default_params.json
+!data/materials.json
+!data/shortcuts.json
+!data/neodrive.ico
+!data/icon.ico
+!data/NeoDriveLoad.png
+!data/NeoDrive.png

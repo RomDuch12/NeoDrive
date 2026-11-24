@@ -1,0 +1,30 @@
+{
+  "decoupe_rectangle": {
+    "width_x": 40.0,
+    "width_y": 30.0,
+    "corner_radius": 2.0,
+    "side": "Outside",
+    "depth": 3.0,
+    "infeed_z": 0.5,
+    "finishing_xy": 0.2,
+    "infeed_finishing_z": 0.5,
+    "diagonal_infeed": false,
+    "repeat_x_count": 1,
+    "repeat_x_step": 0.0,
+    "repeat_y_count": 1,
+    "repeat_y_step": 0.0
+  },
+  "decoupe_cercle": {
+    "diameter": 10.0,
+    "side": "Inside",
+    "depth": 5.0,
+    "infeed_z": 0.5,
+    "finishing_xy": 0.2,
+    "finishing_z": 0.1,
+    "infeed_finishing_z": 0.5,
+    "repeat_x_count": 1,
+    "repeat_x_step": 0.0,
+    "repeat_y_count": 1,
+    "repeat_y_step": 0.0
+  }
+}

@@ -1,0 +1,9 @@
+PySide6>=6.6.0
+ezdxf>=1.1.0
+shapely>=2.0      # gravure 2,5D: erosions successives
+scipy>=1.10       # gravure 2,5D: axe median (Voronoi)
+numpy>=1.24       # gravure 2,5D: distances en lot
+contourpy>=1.2    # usinage 3D: courbes de niveau
+fonttools>=4.40   # texte en contours (polices TrueType / OpenType)
+pypdf>=4.0        # import PDF, guide de coupe lu sur le poste
+cryptography>=41  # PDF proteges (AES)

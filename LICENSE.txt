@@ -1,0 +1,47 @@
+NeoDrive — générateur de programmes SimPL pour machines DATRON
+Copyright (c) 2026 RomDuch
+
+SPDX-License-Identifier: MIT OR Apache-2.0
+
+NeoDrive est un logiciel libre, distribué sous la licence MIT OU sous
+la licence Apache, version 2.0, au choix de celui qui le reçoit:
+
+    LICENSE-MIT.txt      licence MIT
+    LICENSE-APACHE.txt   licence Apache, version 2.0
+
+Sauf mention contraire de son auteur, toute contribution proposée pour
+être incluse dans NeoDrive (au sens de la licence Apache 2.0) est
+placée sous ces deux mêmes licences, sans autre condition.
+
+Ce que ces licences ne couvrent pas
+-----------------------------------
+
+- Le code des autres: les algorithmes repris de VectorCraft et de
+  CADCraft (MIT) et les bibliothèques que l'exe embarque (Python, Qt et
+  PySide6 sous LGPL-3.0, numpy, scipy, shapely…) restent sous leurs
+  propres licences: voir THIRD_PARTY_NOTICES.md et, dans la version
+  portable, le dossier licences/ (un dossier par composant, avec un
+  LISEZ-MOI.txt).
+- Les documents et les données DATRON: NeoDrive n'en livre aucun. Le
+  manuel SimPL, le catalogue d'outils et les données de coupe que
+  l'utilisateur lit sur son poste — sur le webshop DATRON, dans un
+  guide DATRON (data/catalogue_datron*.json,
+  data/coupe_datron_guide.json) — appartiennent à DATRON AG et restent
+  chez lui.
+- Les noms et les marques: DATRON et les noms de ses produits sont des
+  marques de DATRON AG; NeoDrive n'est ni édité ni approuvé par DATRON.
+
+English
+-------
+
+NeoDrive is licensed under either of the MIT license (LICENSE-MIT.txt)
+or the Apache License, Version 2.0 (LICENSE-APACHE.txt), at your
+option. Unless you explicitly state otherwise, any contribution
+intentionally submitted for inclusion in NeoDrive by you, as defined in
+the Apache-2.0 license, shall be dual licensed as above, without any
+additional terms or conditions. Third-party code and the libraries
+bundled in the executable keep their own licenses (THIRD_PARTY_NOTICES.md,
+licences/). NeoDrive ships no DATRON document or data: the tool
+catalogue is built on the user's computer, on request, from DATRON's
+public webshop, and stays there. DATRON documents, data and trademarks
+belong to DATRON AG and are not covered by these licenses.
